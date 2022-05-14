@@ -375,7 +375,8 @@ namespace EmoteBubbleLib
             {
                 throw new Exception("Emotes are already setup. Please add emotes before Mod.AddRecipes.");
             }
-            ModContent.GetInstance<EmoteBubbleLib>().Logger.Info("Adding " + emote.Name + ", command: " + emote.Command + ", type: " + emote.Type);
+            ModContent.GetInstance<EmoteBubbleLib>().Logger
+                .Info("Adding " + emote.Name + ", command: " + emote.Command + ", type: " + emote.Type);
             if (!Main.dedServ)
             {
                 emote.Icon = ModContent.Request<Texture2D>(emote.Texture);

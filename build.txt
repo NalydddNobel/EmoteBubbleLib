@@ -1,3 +1,9 @@
 displayName = Emote Bubbles Lib
 author = Nalyd T.
-version = 0.1
+version = 1.0
+homepage = https://github.com/NalydddNobel/EmoteBubbleLib/
+hideResources = false
+hideCode = false
+includeSource = false
+includePBD = true
+buildIgnore = *.csproj, *.user, *.sln, *.gitignore, *.editorconfig, *.md, *.ase, obj\*, bin\*, .vs\*, .cache\*, Assets\Effects\.compiler\*
