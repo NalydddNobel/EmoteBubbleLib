@@ -1,0 +1,3 @@
+displayName = Emote Bubbles Lib
+author = Nalyd T.
+version = 0.1

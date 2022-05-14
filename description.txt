@@ -1,0 +1,7 @@
+Allows other mods to add custom player/npc chat emotes.
+
+Check the homepage (github) EmoteBubbleLib.cs to see the Call used to add custom emotes.
+
+
+I would contribute this as a base tmod feature, but I have a lot of social anxiety and shy so I'd rather not ask to contribute...
+-- Currently doesn't have many safety features implemented, so mods may accidentally add the same emote command and it would prioritize the one who loaded first --
